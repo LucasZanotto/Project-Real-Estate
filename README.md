@@ -1,3 +1,4 @@
 # Project-Real-Estate
 <br/>
-Esse projeto ainda está em andamento // backend
+
+Esse projeto ainda está em andamento.
