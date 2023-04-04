@@ -1,5 +1,6 @@
 const express = require('express');
 const userRouter = require('./src/routers/loginRouter');
+const movelRouter = require('./src/routers/movelRouter');
 
 const app = express();
 
@@ -10,5 +11,6 @@ app.get('/', (request, response) => {
 });
 
 app.use('/user', userRouter);
+app.use('/movel', movelRouter);
 
 module.exports = app;
